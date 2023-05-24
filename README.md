@@ -40,7 +40,7 @@ first,fordataanalysisweshouldreaddescriptionofdataset and know features and targ
 
 **Checking Numerical Features :**  We have 9 numerical features in our dataset First, we draw the histogram of these data.
 
-![](Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.001.png)
+![](img/Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.001.png)
 
 Figure 1: numerical features , It is quickly visible that there are incorrect values in Age.
 
@@ -48,13 +48,13 @@ It can be seen that the Age column has an incorrect value of 0. PolicyNumber has
 
 Now, in particular, we check the age chart and its distri- bution chart based on the value whose ages are recorded as zero before drawing the chart.
 
-![](Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.002.png)
+![](img/Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.002.png)
 
 Figure2: Itcan beseenthat mostofthe accidentsare around the age of 30 and FraudFoundP is more positive around the age of 30.
 
 Now we are going to check the Fraud Found P feature. This feature is the feature based on which we want to do the classification.
 
-![](Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.003.png)
+![](img/Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.003.png)
 
 Figure 3: It can be seen quickly that the data is not balanced
 
@@ -71,7 +71,7 @@ Features examined in this chart(These features are related to time):
 - MonthClaimed
 - WeekOfMonthClaimed
 
-![](Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.004.png)
+![](img/Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.004.png)
 
 Figure4: Itcanbeseenthatthenumberofaccidentsthrough- out the year in differentmonths is almost constant
 
@@ -83,31 +83,31 @@ Now let’s check some other features.
 
 - Sex
 
-![](Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.005.png)
+![](img/Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.005.png)
 
 Figure 5: The dominant gender of the society is men and they have more positive FraudFoundP than women.
 
 - DriveRate
 
-![](Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.006.png)
+![](img/Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.006.png)
 
 Figure6: Theaccidentrateofvehiclesthathaveaninsurance policy is higher and they have more positive FraudFoundP.
 
 - VehicleCategory
 
-![](Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.007.png)
+![](img/Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.007.png)
 
 Figure 7: Most of the available vehicles are sedans and they have the highest FraudFoundP rates.
 
 - AgentType
 
-![](Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.008.png)
+![](img/Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.008.png)
 
 Figure 8: In general, in the agent section, most of our data is external, and all FraudFoundP is linked to external.
 
 - Year
 
-![](Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.009.png)
+![](img/Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.009.png)
 
 Figure 9: In general, we are dealing with 3 differentyears.
 
@@ -129,7 +129,7 @@ After doing these tasks, the data is ready to train the model.
 
 f1 score : 0.23269513991163474 roc score: 0.6709242370532693
 
-![](Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.010.png)
+![](img/Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.010.png)
 
 Figure 10
 
@@ -137,7 +137,7 @@ Figure 10
 
 f1 score : 0.22107728337236532 rocauc score: 0.6231125679586829
 
-![](Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.011.png)
+![](img/Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.011.png)
 
 Figure 11
 
@@ -146,7 +146,7 @@ Figure 11
 
 f1 score : 0.23667820069204157 roc score: 0.6851261641584222
 
-![](Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.012.png)
+![](img/Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.012.png)
 
 Figure 12
 
@@ -154,7 +154,7 @@ Figure 12
 
 f1 score : 0.23804463336875661 rocauc score: 0.6332465921175598
 
-![](Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.012.png)
+![](img/Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.012.png)
 
 Figure 13
 
@@ -163,7 +163,7 @@ Figure 13
 
 f1 score : 0.16927899686520378 roc score: 0.5600737971705714
 
-![](Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.013.png)
+![](img/Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.013.png)
 
 Figure 14
 
@@ -171,7 +171,7 @@ Figure 14
 
 f1 score : 0.23169398907103822 rocauc score: 0.6250612290934872
 
-![](Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.014.png)
+![](img/Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.014.png)
 
 Figure 15
 
@@ -179,7 +179,7 @@ Figure 15
 
 f1 score : 0.23847841989758592 rocauc score: 0.6792046663014405
 
-![](Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.015.png)
+![](img/Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.015.png)
 
 Figure 16
 
@@ -192,7 +192,7 @@ f1 score : 0.22517911975435007
 
 roc score: 0.6253722084367245
 
-![](Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.016.png)
+![](img/Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.016.png)
 
 Figure 17
 
@@ -200,13 +200,13 @@ Figure 17
 
 f1 score : 0.2130937098844673 rocauc score: 0.5978698720634205
 
-![](Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.017.png)
+![](img/Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.017.png)
 
 Figure 18
 
 - Decision Tree This model is more suitable in its initial state. We will try to improve the results with pruning.
 
-![](Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.018.png)
+![](img/Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.018.png)
 
 Figure 19
 
@@ -214,7 +214,7 @@ Figure 19
 
 f1 score : 0.22461331540013452 roc score: 0.6728336179949084
 
-![](Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.019.png)
+![](img/Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.019.png)
 
 Figure 20
 
@@ -222,7 +222,7 @@ Figure 20
 
 f1 score : 0.2316275490573297 rocauc score: 0.6544894156650753
 
-![](Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.020.png)
+![](img/Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.020.png)
 
 Figure 21
 
@@ -233,7 +233,7 @@ The result did not improve with pruning.
 
 f1 score : 0.2306525037936267 roc score: 0.664351777255003
 
-![](Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.021.png)
+![](img/Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.021.png)
 
 Figure 22
 
@@ -241,7 +241,7 @@ Figure 22
 
 f1 score : 0.2788671023965142 rocauc score: 0.7468826958783634
 
-![](Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.022.png)
+![](img/Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.022.png)
 
 Figure 23
 
@@ -250,7 +250,7 @@ Figure 23
 
 f1 score : 0.2543933054393306 roc score: 0.6785222841674454
 
-*conclusion![](Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.023.png)*
+*conclusion![](img/Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.023.png)*
 
 Figure 24
 
@@ -258,7 +258,7 @@ Figure 24
 
 f1 score : 0.18287937743190658 rocauc score: 0.5613152976056202
 
-The best model resulting from Grid Search is based on ![](Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.024.png)Gradient Boosting. Almost the results of all models are at
+The best model resulting from Grid Search is based on ![](img/Aspose.Words.c3b77f22-149b-4055-a286-3cc72261093e.024.png)Gradient Boosting. Almost the results of all models are at
 
 the same level. Note that the selected metric is proportional to the imbalance of the dataset. The roc plots shown all
 
